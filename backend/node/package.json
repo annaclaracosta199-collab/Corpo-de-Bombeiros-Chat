@@ -1,0 +1,12 @@
+{
+  "name": "consulta-sat-unicerrado",
+  "version": "5.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Portal Consulta SAT UniCerrado com API segura para Chatflow Dify",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --env-file=.env server.mjs"
+  },
+  "engines": {"node": ">=20"}
+}

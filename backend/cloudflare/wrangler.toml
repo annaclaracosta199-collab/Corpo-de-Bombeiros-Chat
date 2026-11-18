@@ -1,0 +1,9 @@
+name = "consulta-sat-unicerrado-api"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+# Troque pela origem EXATA do seu site publicado, sem barra ao final:
+ALLOWED_ORIGIN = "https://SEU-DOMINIO-AQUI.com.br"
+DIFY_API_BASE_URL = "https://api.dify.ai/v1"
+# NUNCA adicione DIFY_API_KEY aqui; use: npx wrangler secret put DIFY_API_KEY

@@ -1,0 +1,7 @@
+<?php
+// Copie este arquivo para config.php, coloque-o FORA da pasta public_html.
+// Não publique a chave em repositórios, config.js ou no navegador.
+return [
+ 'DIFY_API_KEY' => 'COLE_A_CHAVE_DA_API_DO_CHATFLOW_AQUI',
+ 'DIFY_API_BASE_URL' => 'https://api.dify.ai/v1'
+];
